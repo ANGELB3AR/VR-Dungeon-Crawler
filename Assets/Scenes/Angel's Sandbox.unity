@@ -558,9 +558,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2320432148271186268, guid: 9277921aebefe5446ac24b6875073376, type: 3}
+      propertyPath: m_AllowAnchorControl
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2320432148271186268, guid: 9277921aebefe5446ac24b6875073376, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 522736784}
+    - target: {fileID: 2320432149415003853, guid: 9277921aebefe5446ac24b6875073376, type: 3}
+      propertyPath: m_AllowAnchorControl
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2320432149415003853, guid: 9277921aebefe5446ac24b6875073376, type: 3}
       propertyPath: m_InteractionManager
       value: 
