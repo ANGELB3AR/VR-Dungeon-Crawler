@@ -123,6 +123,36 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &137206295 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2320432149742519823, guid: 9277921aebefe5446ac24b6875073376, type: 3}
+  m_PrefabInstance: {fileID: 2320432149609651224}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &137206297 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2320432149742519809, guid: 9277921aebefe5446ac24b6875073376, type: 3}
+  m_PrefabInstance: {fileID: 2320432149609651224}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137206295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cb9aa70a22847b5925ee5f067c10a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &137206298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137206295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a5df2202a8b96488c744be3bd0c33e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Timeout: 10
+  m_XROrigin: {fileID: 137206297}
 --- !u!1 &477845983
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,5 +498,9 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 522736784}
+    - target: {fileID: 2320432149742519809, guid: 9277921aebefe5446ac24b6875073376, type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9277921aebefe5446ac24b6875073376, type: 3}
