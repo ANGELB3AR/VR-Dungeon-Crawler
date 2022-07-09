@@ -1022,7 +1022,7 @@ MonoBehaviour:
     m_Bits: 2
   m_AttachTransform: {fileID: 1390099353}
   m_KeepSelectedTargetValid: 1
-  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingSelectedInteractable: {fileID: 958546868}
   m_StartingTargetFilter: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:
@@ -2041,7 +2041,7 @@ MonoBehaviour:
     m_Bits: 2
   m_AttachTransform: {fileID: 998297258}
   m_KeepSelectedTargetValid: 1
-  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingSelectedInteractable: {fileID: 2050522831}
   m_StartingTargetFilter: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:
@@ -2805,7 +2805,7 @@ MonoBehaviour:
     m_Bits: 2
   m_AttachTransform: {fileID: 1067514532}
   m_KeepSelectedTargetValid: 1
-  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingSelectedInteractable: {fileID: 1275358508}
   m_StartingTargetFilter: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:
@@ -3496,7 +3496,7 @@ MonoBehaviour:
     m_Bits: 2
   m_AttachTransform: {fileID: 1296419261}
   m_KeepSelectedTargetValid: 1
-  m_StartingSelectedInteractable: {fileID: 0}
+  m_StartingSelectedInteractable: {fileID: 1786872716}
   m_StartingTargetFilter: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:
