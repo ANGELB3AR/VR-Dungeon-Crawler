@@ -1796,90 +1796,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1031645894
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1031645895}
-  - component: {fileID: 1031645896}
-  m_Layer: 0
-  m_Name: HelmetSocket
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1031645895
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1031645894}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.49, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2320432149609651225}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1031645896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1031645894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 522736784}
-  m_InteractionLayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_InteractionLayers:
-    m_Bits: 2
-  m_AttachTransform: {fileID: 0}
-  m_KeepSelectedTargetValid: 1
-  m_StartingSelectedInteractable: {fileID: 0}
-  m_StartingTargetFilter: {fileID: 0}
-  m_HoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_HoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnHoverExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_OnSelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ShowInteractableHoverMeshes: 1
-  m_InteractableHoverMeshMaterial: {fileID: 0}
-  m_InteractableCantHoverMeshMaterial: {fileID: 0}
-  m_SocketActive: 1
-  m_InteractableHoverScale: 1
-  m_RecycleDelayTime: 1
 --- !u!1 &1067514531
 GameObject:
   m_ObjectHideFlags: 0
@@ -4326,6 +4242,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1031645896, guid: 9277921aebefe5446ac24b6875073376, type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 522736784}
     - target: {fileID: 2320432147877412314, guid: 9277921aebefe5446ac24b6875073376, type: 3}
       propertyPath: m_Name
       value: Player XR
@@ -4374,90 +4294,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2320432148271186266, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_ValidColorGradient.key1.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432148271186266, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_ValidColorGradient.key1.g
-      value: 0.23238373
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432148271186266, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_ValidColorGradient.key1.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432148271186266, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_InvalidColorGradient.key0.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432148271186266, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_InvalidColorGradient.key0.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432148271186266, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_InvalidColorGradient.key0.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432148271186266, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_InvalidColorGradient.key1.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432148271186266, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_InvalidColorGradient.key1.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432148271186266, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_InvalidColorGradient.key1.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2320432148271186268, guid: 9277921aebefe5446ac24b6875073376, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 522736784}
-    - target: {fileID: 2320432149415003851, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_ValidColorGradient.key1.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432149415003851, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_ValidColorGradient.key1.g
-      value: 0.23238373
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432149415003851, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_ValidColorGradient.key1.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432149415003851, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_InvalidColorGradient.key0.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432149415003851, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_InvalidColorGradient.key0.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432149415003851, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_InvalidColorGradient.key0.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432149415003851, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_InvalidColorGradient.key1.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432149415003851, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_InvalidColorGradient.key1.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2320432149415003851, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-      propertyPath: m_InvalidColorGradient.key1.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2320432149415003853, guid: 9277921aebefe5446ac24b6875073376, type: 3}
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 522736784}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9277921aebefe5446ac24b6875073376, type: 3}
---- !u!4 &2320432149609651225 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2320432149742519808, guid: 9277921aebefe5446ac24b6875073376, type: 3}
-  m_PrefabInstance: {fileID: 2320432149609651224}
-  m_PrefabAsset: {fileID: 0}
